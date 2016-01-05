@@ -1,0 +1,18 @@
+{
+  "name": "nodeitis",
+  "version": "1.0.0",
+  "description": "trying to deploy express app on heroku",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "himanshu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "engines": {
+    "node": "5.2.0"
+  }
+}
