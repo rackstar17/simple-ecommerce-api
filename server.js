@@ -19,7 +19,6 @@ cloudinary.config({
   api_secret: 'wcpLuPoX-1QYg8d90dO3o2dPzZU' 
 });
 
-
 mongo.connect('mongodb://simpledb:toughpassword@ds037395.mongolab.com:37395/gouravapp', function(err,db) {
 	if(err) throw err;
 	console.log('connected to gouravapp database');
